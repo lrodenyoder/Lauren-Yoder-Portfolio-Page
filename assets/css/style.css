@@ -1,0 +1,68 @@
+:root {
+    --lightGray: #f3f1f5;
+    --lightPurple: #f0d9ff;
+    --darkPurple: #bfa2db;
+    --darkGray: #7f7c82;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--lightGray);
+}
+
+/* header and nav bar styles start */
+
+header {
+    background-color: var(--lightPurple);
+    padding: 20px 35px;
+    top: 0px;
+    border-radius: 15px;
+    border: 2px solid var(--darkGray);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: var(--darkPurple);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header a {
+    text-decoration: none;
+    color: purple;
+}
+
+header nav {
+    margin: 10px;
+    width: 50%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+header nav ul a {
+    text-decoration: none;
+    background-color: var(--lightGray);
+    border-radius: 15px;
+    padding: 10px 15px;
+    transition: 0.25s;
+}
+
+header nav ul a:hover {
+    background: var(--darkGray);
+    color: var(--lightPurple);
+    transition: 0.5s;
+}
