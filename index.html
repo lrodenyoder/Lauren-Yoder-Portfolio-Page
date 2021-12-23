@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Lauren Yoder</title>
 </head>
+
 <body>
+    <!-- Header and navigation bar -->
     <header>
-        <h1>Lauren Yoder</h1>
+        <h1>
+            <a href="/">Lauren Yoder</a>
+        </h1>
         <nav>
             <ul>
-                <li href="">About</li>
-                <li href="">Projects</li>
-                <li href="">Contacts</li>
+                <li>
+                    <a href="#aboutSection">About</a>
+                </li>
+                <li>
+                    <a href="#projectsSection">Projects</a>
+                </li>
+                <li>
+                    <a href="#contactsSection">Contacts</a>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <article>
+    <!-- Left side article -->
+    <article class="avatarSocials">
         <img src="" alt="personal avatar" />
         <div>
             <ul>
-                <li>Social 1</li>
-                <li>Social 2</li>
-                <li>Social 3</li>
+                <li>
+                    <a href="">Social 1</a>
+                </li>
+                <li>
+                    <a href="">Social 2</a>
+                </li>
+                <li>
+                    <a href="">Social 3</a>
+                </li>
             </ul>
         </div>
     </article>
 
-    <section>
-        <h2>About Me</h2>
+    <!-- main body sections -->
+    <section id="aboutSection">
+        <h2 class="sectionTitle">About Me</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veniam, rem dolor architecto amet corporis, quasi earum harum porro dicta, sed ad voluptates id eaque sequi ipsa! Illo, voluptas atque.
         </p>
@@ -39,8 +58,8 @@
         <img src="" alt="pet picture" />
     </section>
 
-    <section>
-        <h2>Projects</h2>
+    <section id="projectsSection">
+        <h2 class="projectsClass">Projects</h2>
         <div>
             <!-- project 1 details here -->
         </div>
@@ -57,28 +76,34 @@
     <footer>
         <div>
             <ul>
-                <li>Social 1</li>
-                <li>Social 2</li>
-                <li>Social 3</li>
+                <li>
+                    <a href="">Social 1</a>
+                </li>
+                <li>
+                    <a href="">Social 2</a>
+                </li>
+                <li>
+                    <a href="">Social 3</a>
+                </li>
             </ul>
         </div>
 
         <img src="" alt="personal avatar">
 
-        <div>
+        <div id="contactsSection" class="contactForm">
             <h3>Contact Me</h3>
             <form>
                 <label for="firstName">First Name</label>
-                <input type="text" id="" placeholder="First Name">
+                <input type="text" id="fName" placeholder="First Name" />
 
                 <label for="lastName">Last Name</label>
-                <input type="text" id="" placeholder="Last Name">
+                <input type="text" id="lName" placeholder="Last Name" />
 
                 <label for="email">Email</label>
-                <input type="email" id="" placeholder="Email">
+                <input type="email" id="email" placeholder="Email" />
 
                 <label for="phone">Phone Number</label>
-                <input type="phone" id="" placeholder="Phone Number">
+                <input type="phone" id="phone" placeholder="Phone Number" />
 
                 <label for="contactMessage">Message</label>
                 <textarea id="contactMessage" placeholder="Message"></textarea>
