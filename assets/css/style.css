@@ -59,10 +59,25 @@ header nav ul a {
     border-radius: 15px;
     padding: 10px 15px;
     transition: 0.25s;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul a:hover {
     background: var(--darkGray);
     color: var(--lightPurple);
     transition: 0.5s;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* header and nav styles end */
+
+
+/* footer styles start */
+
+footer {
+    background: var(--lightPurple);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
