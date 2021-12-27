@@ -142,9 +142,10 @@ footer {
     transition: 0.5s;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
-
 /* contact form styles end */
 
+
+/* footer avatar styles start */
 .footerAvatar {
     align-items: center;
     display: flex;
@@ -155,3 +156,13 @@ footer {
     margin-bottom: 20px;
     border-bottom: 1px solid var(--darkGray);
 }
+/* footer avatar styles end */
+
+/* footer social media styles start */
+
+.footerSocials ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
