@@ -78,6 +78,19 @@ footer {
     background: var(--lightPurple);
     width: 100%;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contactDiv {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.formInput {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--darkGray);
+    padding: 7px 15px;
 }
