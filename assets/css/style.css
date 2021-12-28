@@ -32,6 +32,9 @@ header h1 {
     color: var(--darkPurple);
     font-family: 'Audiowide';
     font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 header a {
@@ -39,9 +42,14 @@ header a {
     color: black;
 }
 
+header h1 a {
+    padding: 0 0 0 10px;
+}
+
 header nav {
-    margin: 10px;
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 header nav ul {
@@ -136,11 +144,21 @@ header nav ul a:hover {
     margin: 30px 20px 30px 20px;
 }
 
+/* about me styles start */
+.catCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+
+
+
+
+/* main body styles end */
 
 
 /* footer styles start */
-
 footer {
     background-color: var(--lightPurple);
     padding: 20px 35px;
