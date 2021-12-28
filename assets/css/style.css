@@ -17,7 +17,6 @@ body {
 }
 
 /* header and nav bar styles start */
-
 header {
     background-color: var(--lightPurple);
     padding: 20px 35px;
@@ -75,8 +74,8 @@ header nav ul a:hover {
 /* header and nav styles end */
 
 
-/* body styling start */
 
+/* body styling start */
 .mainBody {
     display: grid;
     grid-template-columns: auto auto;
@@ -87,6 +86,7 @@ header nav ul a:hover {
     padding: 20px;
 }
 
+/* left block styles start */
 .leftBlock {
     border-right: 1px solid black;
     display: flex;
@@ -94,7 +94,7 @@ header nav ul a:hover {
     align-items: center;
     justify-content: flex-start;
 }
-/* left block styles start */
+
 .leftBlock h2 {
     padding: 0 10px 15px 10px;
 }
@@ -118,6 +118,7 @@ header nav ul a:hover {
     list-style: none;
     display: flex;
     flex-flow: row wrap;
+    padding: 5px 0 0 0;
 }
 
 .leftBlockSocials ul li {
@@ -127,7 +128,13 @@ header nav ul a:hover {
 .leftBlockSocials ul li span a{
     color: black;
 }
+/* left block styles end */
 
+
+/* right block styles start */
+.rightBlock {
+    margin: 30px 20px 30px 20px;
+}
 
 
 
