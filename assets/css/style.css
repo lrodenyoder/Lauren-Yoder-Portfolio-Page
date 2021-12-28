@@ -94,6 +94,11 @@ header nav ul a:hover {
     padding: 20px;
 }
 
+.sectionTitle {
+    font-family: 'Audiowide';
+    font-weight: lighter;
+}
+
 /* left block styles start */
 .leftBlock {
     border-right: 1px solid black;
@@ -105,6 +110,8 @@ header nav ul a:hover {
 
 .leftBlock h2 {
     padding: 0 10px 15px 10px;
+    font-family: 'Audiowide';
+    font-weight: lighter;
 }
 
 .avatar {
@@ -154,7 +161,7 @@ header nav ul a:hover {
 img.catPic {
     width: 250px;
     height: 166px;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px;
 }
 
 .zeldaCard, .linkCard, .skullkidCard {
@@ -162,6 +169,8 @@ img.catPic {
     text-align: center;
     border-radius: 15px;
     margin: 20px;
+    padding: 10px;
+    background-color: var(--darkPurple);
 }
 
 
@@ -188,6 +197,7 @@ footer {
     justify-content: space-around;
     flex-flow: column wrap;
     width: 33%;
+    align-self: center;
 }
 
 .contactDiv h3 {
@@ -235,7 +245,7 @@ footer {
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 33%;
+    margin: 30px 40px 30px 40px;
 }
 
 .avatarBlock h2 {
@@ -243,11 +253,14 @@ footer {
     border-bottom: 1px solid var(--darkGray);
     font-size: 30px;
     text-align: center;
+    font-family: 'Audiowide';
+    font-weight: lighter;
 }
 
 .avatarBlock img {
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 30px;
 }
 /* footer avatar styles end */
 
