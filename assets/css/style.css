@@ -31,13 +31,12 @@ header {
 
 header h1 {
     color: var(--darkPurple);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header a {
     text-decoration: none;
-    color: purple;
+    color: black;
 }
 
 header nav {
