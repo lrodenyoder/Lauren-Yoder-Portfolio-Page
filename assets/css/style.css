@@ -31,7 +31,8 @@ header {
 
 header h1 {
     color: var(--darkPurple);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Audiowide';
+    font-weight: lighter;
 }
 
 header a {
@@ -94,9 +95,16 @@ header nav ul a:hover {
     justify-content: flex-start;
 }
 /* left block styles start */
+.leftBlock h2 {
+    padding: 0 10px 15px 10px;
+}
+
 .avatar {
     border-radius: 50%;
     align-self: center;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .leftBlockSocials {
@@ -187,18 +195,23 @@ footer {
 
 
 /* footer avatar styles start */
-.footerAvatar {
+.avatarBlock {
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 33%;
 }
 
-.footerAvatar h2 {
+.avatarBlock h2 {
     margin-bottom: 20px;
     border-bottom: 1px solid var(--darkGray);
     font-size: 30px;
     text-align: center;
+}
+
+.avatarBlock img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* footer avatar styles end */
 
