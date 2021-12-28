@@ -96,7 +96,6 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 
@@ -160,6 +159,7 @@ footer {
     margin-bottom: 20px;
     border-bottom: 1px solid var(--darkGray);
     font-size: 30px;
+    text-align: center;
 }
 /* footer avatar styles end */
 
