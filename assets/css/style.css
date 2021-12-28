@@ -149,9 +149,20 @@ header nav ul a:hover {
 /* right block styles start */
 .rightBlock {
     margin: 30px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* about me styles start */
+#aboutSection h4 {
+    text-align: center;
+    margin: 20px 20px 0 20px;
+    font-family: 'Audiowide';
+    font-weight: lighter;
+}
+
+
+/* cat pic styles start */
 .catCards {
     display: flex;
     flex-wrap: wrap;
@@ -172,7 +183,7 @@ img.catPic {
     padding: 10px;
     background-color: var(--darkPurple);
 }
-
+/* cat pic styles end*/
 
 
 /* main body styles end */
