@@ -105,6 +105,7 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-flow: column wrap;
+    width: 33%;
 }
 
 .contactDiv h3 {
@@ -152,6 +153,7 @@ footer {
     align-items: center;
     display: flex;
     flex-direction: column;
+    width: 33%;
 }
 
 .footerAvatar h2 {
@@ -166,6 +168,8 @@ footer {
 .footerSocials {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 33%;
 }
 
 .footerSocials ul {
