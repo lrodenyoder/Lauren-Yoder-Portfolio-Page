@@ -97,6 +97,8 @@ header nav ul a:hover {
 .sectionTitle {
     font-family: 'Audiowide';
     font-weight: lighter;
+    margin: 20px 0 20px 0;
+    font-size: 30px;
 }
 
 /* left block styles start */
@@ -161,17 +163,21 @@ header nav ul a:hover {
     font-weight: lighter;
 }
 
+.aboutWriting p {
+    line-height: 1.75;
+}
+
 
 /* cat pic styles start */
 .catCards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 img.catPic {
-    width: 250px;
-    height: 166px;
+    width: 166px;
+    height: 111px;
     border-radius: 15px;
 }
 
@@ -179,9 +185,15 @@ img.catPic {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     border-radius: 15px;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
     background-color: var(--darkPurple);
+}
+
+.catCards p.caption {
+    font-size: smaller;
+    padding: 5px 0 0 0;
+    font-style: italic;
 }
 /* cat pic styles end*/
 
@@ -192,7 +204,7 @@ img.catPic {
 /* footer styles start */
 footer {
     background-color: var(--lightPurple);
-    padding: 20px 35px;
+    padding: 20px 35px 0 35px;
     top: 0px;
     border-radius: 15px;
     border: 2px solid var(--darkGray);
