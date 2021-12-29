@@ -148,6 +148,7 @@ header nav ul a:hover {
 /* left block styles end */
 
 
+
 /* right block styles start */
 .rightBlock {
     margin: 30px 20px 30px 20px;
@@ -166,7 +167,7 @@ header nav ul a:hover {
 .aboutWriting p {
     line-height: 1.75;
 }
-
+/* about me styles end */
 
 /* cat pic styles start */
 .catCards {
@@ -197,8 +198,22 @@ img.catPic {
 }
 /* cat pic styles end*/
 
+/* projects styles start */
+.projectsSection {
+    display: grid;
+    grid-template-columns: auto auto;
+}
 
+.runBuddyCard {
+    grid-column: 1 / span 2;
+}
+
+img.mainProjectPic {
+    max-width: 100%;
+    
+}
 /* main body styles end */
+
 
 
 /* footer styles start */
@@ -212,7 +227,6 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-
 
 /* contact form styles start */
 .contactDiv {
@@ -261,7 +275,6 @@ footer {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 /* contact form styles end */
-
 
 /* footer avatar styles start */
 .avatarBlock {
