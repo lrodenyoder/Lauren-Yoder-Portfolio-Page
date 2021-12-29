@@ -199,19 +199,15 @@ img.catPic {
 /* cat pic styles end*/
 
 /* projects styles start */
-.projectsSection {
-    display: grid;
-    grid-template-columns: auto auto;
+/*START HERE. WTF*/.mainProjectCard {
+    height: 250px;
 }
 
-.runBuddyCard {
-    grid-column: 1 / span 2;
+.secondaryProjectCards {
+    display: flex;
+    flex-direction: row;
 }
 
-img.mainProjectPic {
-    max-width: 100%;
-    
-}
 /* main body styles end */
 
 
