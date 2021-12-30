@@ -226,7 +226,7 @@ img.catPic {
 
 .mainProjectCard p.caption, .secondaryProjectCards p.caption {
     padding: 50px;
-    margin: 200px 200px 50px 0;
+    margin: 200px 130px 50px 0;
     background-color: var(--darkGray);
     color: var(--lightPurple);
     border-radius: 2px 15px 15px 2px;
