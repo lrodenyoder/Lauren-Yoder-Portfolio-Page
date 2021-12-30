@@ -201,16 +201,27 @@ img.catPic {
 /* cat pic styles end*/
 
 /* projects styles start */
-/*START HERE. WTF. BLOCK THEN FLEX? GRID??*/
+#projectsSection h3.sectionTitle {
+    margin: 50px 0 20px 0;
+}
+
 .mainProjectCard {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     border-radius: 15px;
     margin: 10px;
-    padding: 10px;
     background-image: url(../images/cat1.jpg);
     background-size: cover;
-    padding: 200px 0 200px 0;
+    display: flex;
+    align-items: flex-end;
+    border: 12px solid red
+}
+
+.mainProjectCard p.caption, .secondaryProjectCards p.caption {
+    padding: 50px;
+    margin: 200px 200px 50px 0;
+    background-color: red;
+    border-radius: 2px 15px 15px 2px;
 }
 
 .secondaryProjectCards {
@@ -223,12 +234,13 @@ img.catPic {
     text-align: center;
     border-radius: 15px;
     margin: 10px;
-    padding: 10px;
     background-image: url(../images/cat1.jpg);
     background-size: cover;
-    padding: 200px 0 200px 0;
     width: 50%;
+    border: 12px solid red;
 }
+
+ 
 
 
 /* main body styles end */
