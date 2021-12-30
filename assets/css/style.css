@@ -177,7 +177,7 @@ header nav ul a:hover {
 }
 
 img.catPic {
-    width: 166px;
+    max-width: 166px;
     height: 111px;
     border-radius: 15px;
 }
@@ -199,7 +199,8 @@ img.catPic {
 /* cat pic styles end*/
 
 /* projects styles start */
-/*START HERE. WTF*/.mainProjectCard {
+/*START HERE. WTF. BLOCK THEN FLEX? GRID??*/
+.mainProjectCard {
     height: 250px;
 }
 
