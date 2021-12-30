@@ -201,6 +201,7 @@ img.catPic {
 /* cat pic styles end*/
 
 /* projects styles start */
+/*START HERE. WTF. BLOCK THEN FLEX? GRID??*/
 #projectsSection h3.sectionTitle {
     margin: 50px 0 20px 0;
 }
@@ -217,7 +218,7 @@ img.catPic {
     border: 12px solid red
 }
 
-.mainProjectCard p.caption, .secondaryProjectCards p.caption {
+.mainProjectCard p.caption {
     padding: 50px;
     margin: 200px 200px 50px 0;
     background-color: red;
@@ -240,7 +241,12 @@ img.catPic {
     border: 12px solid red;
 }
 
- 
+.secondaryProjectCards p.caption {
+    padding: 50px;
+    margin: 200px 200px 50px 0;
+    background-color: red;
+    border-radius: 2px 15px 15px 2px;
+}
 
 
 /* main body styles end */
