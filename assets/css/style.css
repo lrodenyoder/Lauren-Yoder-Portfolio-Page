@@ -201,7 +201,6 @@ img.catPic {
 /* cat pic styles end*/
 
 /* projects styles start */
-/*START HERE. WTF. BLOCK THEN FLEX? GRID??*/
 #projectsSection h3.sectionTitle {
     margin: 50px 0 20px 0;
 }
@@ -212,17 +211,26 @@ img.catPic {
     border-radius: 15px;
     margin: 10px;
     background-image: url(../images/cat1.jpg);
+    opacity: 0.75;
+    transition: 0.25s;
     background-size: cover;
     display: flex;
     align-items: flex-end;
-    border: 12px solid red
+    border: 12px solid var(--darkGray)
 }
 
-.mainProjectCard p.caption {
+.mainProjectCard:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.mainProjectCard p.caption, .secondaryProjectCards p.caption {
     padding: 50px;
     margin: 200px 200px 50px 0;
-    background-color: red;
+    background-color: var(--darkGray);
+    color: var(--lightPurple);
     border-radius: 2px 15px 15px 2px;
+    text-align: start;
 }
 
 .secondaryProjectCards {
@@ -238,15 +246,22 @@ img.catPic {
     background-image: url(../images/cat1.jpg);
     background-size: cover;
     width: 50%;
-    border: 12px solid red;
+    border: 12px solid var(--darkGray);
+    opacity: 0.75;
+    transition: 0.25s;
 }
 
-.secondaryProjectCards p.caption {
-    padding: 50px;
-    margin: 200px 200px 50px 0;
-    background-color: red;
-    border-radius: 2px 15px 15px 2px;
+.placeholderCard1:hover {
+    opacity: 1;
+    transition: 0.5s;
 }
+
+.placeholderCard2:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+ 
 
 
 /* main body styles end */
