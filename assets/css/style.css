@@ -209,6 +209,8 @@ img.catPic {
     margin: 10px;
     padding: 10px;
     background-image: url(../images/cat1.jpg);
+    background-size: cover;
+    padding: 200px;
 }
 
 .placeholderCard1 {
@@ -218,6 +220,8 @@ img.catPic {
     margin: 10px;
     padding: 10px;
     background-image: url(../images/cat1.jpg);
+    background-size: cover;
+    padding: 200px;
 }
 
 .placeholderCard2 {
@@ -227,6 +231,8 @@ img.catPic {
     margin: 10px;
     padding: 10px;
     background-image: url(../images/cat1.jpg);
+    background-size: cover;
+    padding: 200px;
 }
 
 /* main body styles end */
