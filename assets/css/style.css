@@ -134,7 +134,7 @@ header nav ul a:hover {
 .leftBlockSocials ul {
     list-style: none;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     padding: 5px 0 0 0;
 }
 
@@ -210,10 +210,15 @@ img.catPic {
     padding: 10px;
     background-image: url(../images/cat1.jpg);
     background-size: cover;
-    padding: 200px;
+    padding: 200px 0 200px 0;
 }
 
-.placeholderCard1 {
+.secondaryProjectCards {
+    display: flex;
+    justify-content: center;
+}
+
+.placeholderCard1, .placeholderCard2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     border-radius: 15px;
@@ -221,19 +226,10 @@ img.catPic {
     padding: 10px;
     background-image: url(../images/cat1.jpg);
     background-size: cover;
-    padding: 200px;
+    padding: 200px 0 200px 0;
+    width: 50%;
 }
 
-.placeholderCard2 {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    border-radius: 15px;
-    margin: 10px;
-    padding: 10px;
-    background-image: url(../images/cat1.jpg);
-    background-size: cover;
-    padding: 200px;
-}
 
 /* main body styles end */
 
