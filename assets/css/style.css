@@ -210,13 +210,21 @@ img.catPic {
     text-align: center;
     border-radius: 15px;
     margin: 10px;
-    background-image: url(../images/cat1.jpg);
+    background-image: url(../images/run-buddy-screenshot.jpg);
     opacity: 0.75;
     transition: 0.25s;
     background-size: cover;
     display: flex;
     align-items: flex-end;
-    border: 12px solid var(--darkGray)
+    border: 12px solid var(--darkGray);
+}
+
+.projectGrid a {
+    text-decoration: none;
+}
+
+a .placeholderCard1 {
+    display: inline block;
 }
 
 .mainProjectCard:hover {
@@ -231,6 +239,7 @@ img.catPic {
     color: var(--lightPurple);
     border-radius: 2px 15px 15px 2px;
     text-align: start;
+    font-size: 17px;
 }
 
 .secondaryProjectCards {
@@ -245,7 +254,6 @@ img.catPic {
     margin: 10px;
     background-image: url(../images/cat1.jpg);
     background-size: cover;
-    width: 50%;
     border: 12px solid var(--darkGray);
     opacity: 0.75;
     transition: 0.25s;
@@ -260,10 +268,7 @@ img.catPic {
     opacity: 1;
     transition: 0.5s;
 }
-
- 
-
-
+/* project styles end */
 /* main body styles end */
 
 
