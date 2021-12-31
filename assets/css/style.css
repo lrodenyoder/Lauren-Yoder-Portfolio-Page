@@ -197,6 +197,7 @@ img.catPic {
     font-size: smaller;
     padding: 5px 0 0 0;
     font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
 }
 /* cat pic styles end*/
 
@@ -221,6 +222,7 @@ img.catPic {
 
 .projectGrid a {
     text-decoration: none;
+    width: 50%;
 }
 
 a .placeholderCard1 {
@@ -240,6 +242,8 @@ a .placeholderCard1 {
     border-radius: 2px 15px 15px 2px;
     text-align: start;
     font-size: 17px;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .secondaryProjectCards {
@@ -252,11 +256,18 @@ a .placeholderCard1 {
     text-align: center;
     border-radius: 15px;
     margin: 10px;
-    background-image: url(../images/cat1.jpg);
     background-size: cover;
     border: 12px solid var(--darkGray);
     opacity: 0.75;
     transition: 0.25s;
+}
+
+.placeholderCard1 {
+    background-image: url(../images/placeholder1.jpg);
+}
+
+.placeholderCard2 {
+    background-image: url(../images/placeholder2.jpg);
 }
 
 .placeholderCard1:hover {
