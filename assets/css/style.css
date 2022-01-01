@@ -492,3 +492,20 @@ footer {
 
 
 /* media query for mobile phones and smaller (575px) */
+@media screen and (max-width: 575px){
+    header {
+        flex-direction: column;
+    }
+
+    header h1 {
+        align-self: flex-start;
+    }
+
+    header h1 a {
+        padding: 0;
+    }
+
+    header nav {
+        width: 0;
+    }
+}
