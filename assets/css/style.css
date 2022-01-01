@@ -55,7 +55,7 @@ header nav {
 header nav ul {
     display: flex;
     justify-content: flex-end;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     list-style: none;
     align-items: center;
 }
@@ -392,3 +392,38 @@ footer {
 }
 /* footer social media styles end */
 /* footer styles end */
+
+
+/* media query for smaller desktop screens and smaller (980px) */
+@media screen and (max-width: 980px) {
+    .mainBody {
+        display: block;
+    }
+
+    .leftBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-bottom: 1px solid var(--darkGray);
+        border-right: none;
+    }
+
+    .leftBlockSocials ul {
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+
+    .footerSocials ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* media query for tablets and smaller (768px) */
+
+
+
+/* media query for mobile phones and smaller (575px) */
