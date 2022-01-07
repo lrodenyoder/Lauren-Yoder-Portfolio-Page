@@ -114,6 +114,7 @@ header nav ul a:hover {
     padding: 0 10px 15px 10px;
     font-family: 'Audiowide';
     font-weight: lighter;
+    text-align: center;
 }
 
 .avatar {
