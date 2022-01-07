@@ -179,7 +179,7 @@ header nav ul a:hover {
 img.catPic {
     width: 100%;
     min-width: 50%;
-    max-height: 11vw;
+    max-height: 14vw;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -415,6 +415,7 @@ footer {
 
     img.catPic {
         max-width: 50vw;
+        max-height: 17vw;
     }
 
     .footerSocials ul {
