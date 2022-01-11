@@ -8,7 +8,7 @@
 This project is intended to be a personal portfolio. The purpose is to provide a centralized location for my works, contacts, and a short bio. This specific project focused on making a responsive layout that adapts to various viewport sizes.
 
 ## Personal Portfolio
-[Click Here](https://lrodenyoder.github.io/Module-2-Challenge-Submission/) to go to the portfolio website
+[Click Here](https://lrodenyoder.github.io/Lauren-Yoder-Portfolio-Page/) to go to the portfolio website
 
 <p>
   <img src="assets/README-images/screenshot-1.jpg" alt="Personal portfolio webpage screenshot"/>
